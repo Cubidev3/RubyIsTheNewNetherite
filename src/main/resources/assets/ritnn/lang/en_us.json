@@ -1,4 +1,8 @@
 {
   "item.ritnn.ruby": "Ruby",
-  "block.ritnn.ruby_block": "Ruby Block"
+  "block.ritnn.ruby_block": "Ruby block",
+  "item.ritnn.ruby_helmet": "Ruby helmet",
+  "item.ritnn.ruby_chestplate": "Ruby chestplate",
+  "item.ritnn.ruby_leggings": "Ruby leggings",
+  "item.ritnn.ruby_boots": "Ruby boots"
 }

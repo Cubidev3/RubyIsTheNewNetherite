@@ -1,4 +1,8 @@
 {
   "item.ritnn.ruby": "Rubi",
-  "block.ritnn.ruby_block": "Bloco de Rubi"
+  "block.ritnn.ruby_block": "Bloco de rubi",
+  "item.ritnn.ruby_helmet": "Capacete de rubi",
+  "item.ritnn.ruby_chestplate": "Peitoral de rubi",
+  "item.ritnn.ruby_leggings": "Calças de rubi",
+  "item.ritnn.ruby_boots": "Botas de rubi"
 }
