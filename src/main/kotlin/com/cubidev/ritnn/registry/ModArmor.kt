@@ -30,7 +30,7 @@ object ModArmor {
 
 class RubyArmorMaterial : ArmorMaterial {
     private val KNOCKBACK_RESISTENCE_VALUE = 4f
-    private val TOUGHNESS_VALUE = 10f
+    private val TOUGHNESS_VALUE = 6f
     private val ENCHANTABILITY_VALUE = 30
     private val DURABILITY_MULTIPLIER = 35
     private val BASE_DURABILITY = intArrayOf(13,15,16,11)
