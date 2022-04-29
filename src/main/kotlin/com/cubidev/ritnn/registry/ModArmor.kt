@@ -31,10 +31,10 @@ object ModArmor {
 class RubyArmorMaterial : ArmorMaterial {
     private val KNOCKBACK_RESISTENCE_VALUE = 4f
     private val TOUGHNESS_VALUE = 10f
-    private val ENCHANTABILITY_VALUE = 35
-    private val DURABILITY_MULTIPLIER = 47
+    private val ENCHANTABILITY_VALUE = 30
+    private val DURABILITY_MULTIPLIER = 35
     private val BASE_DURABILITY = intArrayOf(13,15,16,11)
-    private val PROTECTION_VALUES = intArrayOf(5,10,13,5)
+    private val PROTECTION_VALUES = intArrayOf(3,8,6,3)
 
     override fun getDurability(slot: EquipmentSlot?): Int {
         if (slot != null) {
