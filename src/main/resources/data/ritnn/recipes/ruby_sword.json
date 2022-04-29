@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    " R ",
+    " B "
+  ],
+  "key": {
+    "R": {
+      "item": "ritnn:ruby"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "ritnn:ruby_sword",
+    "count": 1
+  }
+}
