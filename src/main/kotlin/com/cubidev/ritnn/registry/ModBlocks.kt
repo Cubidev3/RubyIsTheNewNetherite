@@ -19,7 +19,15 @@ object ModBlocks {
         .sounds(BlockSoundGroup.METAL)
     )
 
+    val RUBY_ORE = Block(FabricBlockSettings
+        .of(Material.STONE)
+        .strength(3.0f, 4.0f)
+        .requiresTool()
+        .sounds(BlockSoundGroup.STONE)
+    )
+
     fun registerBlocks() {
         Registry.register(Registry.BLOCK, Identifier(Ritnn.MOD_ID, "ruby_block"), RUBY_BLOCK)
+        Registry.register(Registry.BLOCK, Identifier(Ritnn.MOD_ID, "ruby_ore"), RUBY_ORE)
     }
 }

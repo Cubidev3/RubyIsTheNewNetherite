@@ -45,8 +45,8 @@ class RubyHoe : HoeItem {
 
 class RubyToolMaterial : ToolMaterial {
     val durabilityValue = 3750
-    val enchantabilityValue = 44
-    val miningSpeedValue = 19f
+    val enchantabilityValue = 32
+    val miningSpeedValue = 18f
     val miningLevelValue = 4
     val attackDamageValue = 11f
 

@@ -18,8 +18,14 @@ object ModItems {
         Item.Settings().group(ItemGroup.BUILDING_BLOCKS)
     )
 
+    val RUBY_ORE_ITEM = BlockItem (
+        ModBlocks.RUBY_ORE,
+        Item.Settings().group(ItemGroup.BUILDING_BLOCKS)
+    )
+
     fun registerItems() {
         Registry.register(Registry.ITEM, Identifier(Ritnn.MOD_ID, "ruby"), RUBY)
         Registry.register(Registry.ITEM, Identifier(Ritnn.MOD_ID, "ruby_block"), RUBY_BLOCK_ITEM)
+        Registry.register(Registry.ITEM, Identifier(Ritnn.MOD_ID, "ruby_ore"), RUBY_ORE_ITEM)
     }
 }

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "ritnn:ruby_block"
+    "ritnn:ruby_block",
+    "ritnn:ruby_ore"
   ]
 }
