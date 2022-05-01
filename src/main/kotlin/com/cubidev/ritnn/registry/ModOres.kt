@@ -41,12 +41,37 @@ object ModOres {
         )
     )
 
+    val DEEPSLATE_RUBY_ORE_CONFIGURED_ORE = ConfiguredFeature(
+        Feature.ORE,
+        OreFeatureConfig(
+            OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
+            ModBlocks.DEEPSLATE_RUBY_ORE.defaultState,
+            3
+        )
+    )
+
+    val DEEPSLATE_RUBY_ORE_PLACED_FEATURE = PlacedFeature(
+        RegistryEntry.of(DEEPSLATE_RUBY_ORE_CONFIGURED_ORE),
+        arrayListOf(
+            CountPlacementModifier.of(5),
+            SquarePlacementModifier(),
+            HeightRangePlacementModifier.uniform(YOffset.BOTTOM, YOffset.fixed(15))
+        )
+    )
+
     fun registerOres() {
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, Identifier(Ritnn.MOD_ID, "overworld_ruby_ore"), OVERWORLD_RUBY_ORE_CONFIGURED_ORE)
         Registry.register(BuiltinRegistries.PLACED_FEATURE, Identifier(Ritnn.MOD_ID, "overworld_ruby_ore"), OVERWORLD_RUBY_ORE_PLACED_FEATURE)
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RegistryKey.of(
             Registry.PLACED_FEATURE_KEY,
             Identifier(Ritnn.MOD_ID, "overworld_ruby_ore")
+        ))
+
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, Identifier(Ritnn.MOD_ID, "overworld_deepslate_ruby_ore"), DEEPSLATE_RUBY_ORE_CONFIGURED_ORE)
+        Registry.register(BuiltinRegistries.PLACED_FEATURE, Identifier(Ritnn.MOD_ID, "overworld_deepslate_ruby_ore"), DEEPSLATE_RUBY_ORE_PLACED_FEATURE)
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RegistryKey.of(
+            Registry.PLACED_FEATURE_KEY,
+            Identifier(Ritnn.MOD_ID, "overworld_deepslate_ruby_ore")
         ))
     }
 }

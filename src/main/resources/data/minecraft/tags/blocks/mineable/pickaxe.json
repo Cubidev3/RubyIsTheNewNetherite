@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "ritnn:ruby_block",
-    "ritnn:ruby_ore"
+    "ritnn:ruby_ore",
+    "ritnn:deepslate_ruby_ore"
   ]
 }

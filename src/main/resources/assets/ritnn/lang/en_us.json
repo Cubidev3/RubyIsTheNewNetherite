@@ -10,5 +10,6 @@
   "item.ritnn.ruby_hoe": "Ruby Hoe",
   "item.ritnn.ruby_shovel": "Ruby Shovel",
   "item.ritnn.ruby_sword": "Ruby Sword",
-  "block.ritnn.ruby_ore": "Ruby Ore"
+  "block.ritnn.ruby_ore": "Ruby Ore",
+  "block.ritnn.deepslate_ruby_ore": "Deepslate Ruby Ore"
 }

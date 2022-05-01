@@ -26,8 +26,16 @@ object ModBlocks {
         .sounds(BlockSoundGroup.STONE)
     )
 
+    val DEEPSLATE_RUBY_ORE = Block(FabricBlockSettings
+        .of(Material.STONE)
+        .strength(4.0f, 5.0f)
+        .requiresTool()
+        .sounds(BlockSoundGroup.DEEPSLATE)
+    )
+
     fun registerBlocks() {
         Registry.register(Registry.BLOCK, Identifier(Ritnn.MOD_ID, "ruby_block"), RUBY_BLOCK)
         Registry.register(Registry.BLOCK, Identifier(Ritnn.MOD_ID, "ruby_ore"), RUBY_ORE)
+        Registry.register(Registry.BLOCK, Identifier(Ritnn.MOD_ID, "deepslate_ruby_ore"), DEEPSLATE_RUBY_ORE)
     }
 }
