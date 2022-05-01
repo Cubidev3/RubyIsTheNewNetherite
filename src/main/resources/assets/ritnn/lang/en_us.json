@@ -1,14 +1,14 @@
 {
   "item.ritnn.ruby": "Ruby",
-  "block.ritnn.ruby_block": "Ruby block",
-  "item.ritnn.ruby_helmet": "Ruby helmet",
-  "item.ritnn.ruby_chestplate": "Ruby chestplate",
-  "item.ritnn.ruby_leggings": "Ruby leggings",
-  "item.ritnn.ruby_boots": "Ruby boots",
-  "item.ritnn.ruby_axe": "Ruby axe",
-  "item.ritnn.ruby_pickaxe": "Ruby pickaxe",
-  "item.ritnn.ruby_hoe": "Ruby hoe",
-  "item.ritnn.ruby_shovel": "Ruby shovel",
-  "item.ritnn.ruby_sword": "Ruby sword",
-  "block.ritnn.ruby_ore": "Ruby ore"
+  "block.ritnn.ruby_block": "Ruby Block",
+  "item.ritnn.ruby_helmet": "Ruby Helmet",
+  "item.ritnn.ruby_chestplate": "Ruby Chestplate",
+  "item.ritnn.ruby_leggings": "Ruby Leggings",
+  "item.ritnn.ruby_boots": "Ruby Boots",
+  "item.ritnn.ruby_axe": "Ruby Axe",
+  "item.ritnn.ruby_pickaxe": "Ruby Pickaxe",
+  "item.ritnn.ruby_hoe": "Ruby Hoe",
+  "item.ritnn.ruby_shovel": "Ruby Shovel",
+  "item.ritnn.ruby_sword": "Ruby Sword",
+  "block.ritnn.ruby_ore": "Ruby Ore"
 }
