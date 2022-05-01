@@ -28,14 +28,14 @@ object ModOres {
         OreFeatureConfig(
             OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
             ModBlocks.RUBY_ORE.defaultState,
-            4
+            3
         )
     )
 
     val OVERWORLD_RUBY_ORE_PLACED_FEATURE = PlacedFeature(
         RegistryEntry.of(OVERWORLD_RUBY_ORE_CONFIGURED_ORE),
         arrayListOf(
-            CountPlacementModifier.of(5),
+            CountPlacementModifier.of(3),
             SquarePlacementModifier(),
             HeightRangePlacementModifier.uniform(YOffset.BOTTOM, YOffset.fixed(15))
         )
