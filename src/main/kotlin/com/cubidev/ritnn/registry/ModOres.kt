@@ -35,7 +35,7 @@ object ModOres {
     val OVERWORLD_RUBY_ORE_PLACED_FEATURE = PlacedFeature(
         RegistryEntry.of(OVERWORLD_RUBY_ORE_CONFIGURED_ORE),
         arrayListOf(
-            CountPlacementModifier.of(3),
+            CountPlacementModifier.of(4),
             SquarePlacementModifier(),
             HeightRangePlacementModifier.uniform(YOffset.BOTTOM, YOffset.fixed(15))
         )
